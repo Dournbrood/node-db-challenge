@@ -40,11 +40,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+  - `Relational databases` are where the data is stored in tables, and said tables can be referenced _without_ having to change those tables.
+
+  - `SQL`,  on the other hand, is how we _access_ that data. It's basically an API that lets us reference our data in mergy, squishy or joiny ways.
+
 - [ ] Why do tables need a `primary key`?
+  - Tables need a `primary key` so all data has integrity and is unique.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
-
+  - The name of such a column is a `foreign key`.
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+  - While a third table is not _needed_, it is very useful to have a third table with foreign keys for both "`many`" tables. 
 
 ## Minimum Viable Product
 
